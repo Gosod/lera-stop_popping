@@ -357,7 +357,7 @@ template {
 .wrapper {
     min-width: 1200px;
     min-height: auto;
-    padding: 0px;
+    background: #000;
     margin: 0px;
 }
 
@@ -370,17 +370,13 @@ ul li {
 .header {
     min-width: 1200px;
     height: 1000px;
-    background: #000;
-    padding-left: 120px;
+   
 }
 
 .navigation_list {
     display: flex;
-    justify-content: center;
-}
-
-.navigation_item {
-    margin-right: 15px;
+    justify-content: space-between;
+    padding-right: 150px;
     
 }
 
@@ -398,13 +394,15 @@ ul li {
 }
 
 .header_img{
-  margin-right: 100px;
+  padding-left: 100px;
+  margin-right: 160px;
 }
 
 .song {
   padding-left: 120px;
   min-width: 1200px;
   height: 970px;
+  background-color: #eaf0f1;
 }
 
 .song_list {
